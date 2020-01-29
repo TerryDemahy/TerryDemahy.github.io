@@ -6,6 +6,6 @@
     text-align: center;
     display: block;
     position: absolute;
-    top: 100px;
+    top: positionY;
     left: 0px;  /* <--- Change me! */
 }

@@ -18,7 +18,7 @@
 
     // moves the Box to a new position on the screen along the X-Axis
     function moveBoxTo(newPositionX) {
-        box.css("left", newPositionX);
+        box.css('left', newPositionX);
     }
 
     // changes the text displayed on the Box
@@ -37,7 +37,8 @@
     
     var positionY;
     var directionY;
-
+    var boardHeight = jQuery(window).height();
+    
     
     /* 
     This Function will be called 20 times/second. Each time it is called,
@@ -52,6 +53,7 @@
         } if (positionX < 0) {
             speed = speed * -1;
         }
+        
 
     };
 
